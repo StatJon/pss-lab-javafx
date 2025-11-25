@@ -21,7 +21,7 @@ public class Counter {
     }
 
     public IntegerProperty counterProperty() {
-        this.value.get();
+        return this.value;
         //throw new UnsupportedOperationException("Not implemented yet");
     }
 }
