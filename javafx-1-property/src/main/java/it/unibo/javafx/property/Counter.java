@@ -11,14 +11,17 @@ public class Counter {
     }
 
     public void increment() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.value.set(this.value.get() + 1);
+        //throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public void decrement() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.value.set(this.value.get() - 1);
+        //throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public IntegerProperty counterProperty() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.value.get();
+        //throw new UnsupportedOperationException("Not implemented yet");
     }
 }
